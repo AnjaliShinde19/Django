@@ -1,0 +1,18 @@
+body,
+td,
+th {
+    text-align: center;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+}
+
+th {
+    color: blue;
+}

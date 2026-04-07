@@ -1,0 +1,16 @@
+{% extends 'crudApp/Base.html' %}
+
+{% block content %}
+<h2>Edit Student</h2>
+<div>
+    <form action="#" method="post">
+        Student No: <input type="text" name="SNo" value="{{student.SNo}}">
+        Student Name: <input type="text" name="SName" value="{{student.SName}}">
+        Student Class: <input type="text" name="SClass" value="{{student.SClass}}">
+        Student Address: <input type="text" name="SAddress" value="{{student.SAddress}}">
+        {% csrf_token %}
+
+        <input type="submit" value="Update">
+    </form>
+</div>
+{% endblock %}
